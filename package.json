@@ -1,0 +1,23 @@
+{
+  "name": "student-course-management",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Student Course Management System - College Lab Project built with React, Vite, Bootstrap 5, and JSON Server",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "server": "npx json-server@0.17.4 --watch db.json --port 3000"
+  },
+  "dependencies": {
+    "bootstrap": "^5.3.3",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.3.1",
+    "json-server": "^0.17.4",
+    "vite": "^5.4.1"
+  }
+}

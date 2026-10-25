@@ -1,0 +1,158 @@
+{
+  "students": [
+    {
+      "id": "STU-101",
+      "studentId": "STU-101",
+      "fullName": "Aarav Sharma",
+      "email": "aarav.sharma@college.edu",
+      "phone": "9876543210",
+      "department": "Computer Science",
+      "semester": "4th Semester"
+    },
+    {
+      "id": "STU-102",
+      "studentId": "STU-102",
+      "fullName": "Priya Nair",
+      "email": "priya.nair@college.edu",
+      "phone": "9876501234",
+      "department": "Information Technology",
+      "semester": "6th Semester"
+    },
+    {
+      "id": "STU-103",
+      "studentId": "STU-103",
+      "fullName": "Rohan Verma",
+      "email": "rohan.verma@college.edu",
+      "phone": "9812345670",
+      "department": "Electronics & Communication",
+      "semester": "2nd Semester"
+    },
+    {
+      "id": "STU-104",
+      "studentId": "STU-104",
+      "fullName": "Sneha Kulkarni",
+      "email": "sneha.kulkarni@college.edu",
+      "phone": "9765432109",
+      "department": "Computer Science",
+      "semester": "4th Semester"
+    },
+    {
+      "id": "STU-105",
+      "studentId": "STU-105",
+      "fullName": "Karthik Reddy",
+      "email": "karthik.reddy@college.edu",
+      "phone": "9988776655",
+      "department": "Mechanical Engineering",
+      "semester": "6th Semester"
+    },
+    {
+      "id": "STU-106",
+      "studentId": "STU-106",
+      "fullName": "Ananya Iyer",
+      "email": "ananya.iyer@college.edu",
+      "phone": "9123456789",
+      "department": "Data Science",
+      "semester": "2nd Semester"
+    }
+  ],
+  "courses": [
+    {
+      "id": "CRS-201",
+      "courseId": "CRS-201",
+      "courseName": "Database Management Systems",
+      "courseCode": "CS301",
+      "duration": "16 Weeks",
+      "department": "Computer Science"
+    },
+    {
+      "id": "CRS-202",
+      "courseId": "CRS-202",
+      "courseName": "Full-Stack Web Development",
+      "courseCode": "IT304",
+      "duration": "16 Weeks",
+      "department": "Information Technology"
+    },
+    {
+      "id": "CRS-203",
+      "courseId": "CRS-203",
+      "courseName": "Digital Signal Processing",
+      "courseCode": "EC205",
+      "duration": "14 Weeks",
+      "department": "Electronics & Communication"
+    },
+    {
+      "id": "CRS-204",
+      "courseId": "CRS-204",
+      "courseName": "Data Structures and Algorithms",
+      "courseCode": "CS201",
+      "duration": "16 Weeks",
+      "department": "Computer Science"
+    },
+    {
+      "id": "CRS-205",
+      "courseId": "CRS-205",
+      "courseName": "Machine Learning Foundations",
+      "courseCode": "DS401",
+      "duration": "12 Weeks",
+      "department": "Data Science"
+    },
+    {
+      "id": "CRS-206",
+      "courseId": "CRS-206",
+      "courseName": "Robotics and Automation",
+      "courseCode": "ME310",
+      "duration": "14 Weeks",
+      "department": "Mechanical Engineering"
+    }
+  ],
+  "enrollments": [
+    {
+      "id": "ENR-301",
+      "enrollmentId": "ENR-301",
+      "studentId": "STU-101",
+      "courseId": "CRS-201",
+      "enrollmentDate": "2026-08-10",
+      "status": "Active"
+    },
+    {
+      "id": "ENR-302",
+      "enrollmentId": "ENR-302",
+      "studentId": "STU-102",
+      "courseId": "CRS-202",
+      "enrollmentDate": "2026-08-12",
+      "status": "Active"
+    },
+    {
+      "id": "ENR-303",
+      "enrollmentId": "ENR-303",
+      "studentId": "STU-103",
+      "courseId": "CRS-203",
+      "enrollmentDate": "2026-08-14",
+      "status": "Active"
+    },
+    {
+      "id": "ENR-304",
+      "enrollmentId": "ENR-304",
+      "studentId": "STU-104",
+      "courseId": "CRS-204",
+      "enrollmentDate": "2026-08-15",
+      "status": "Active"
+    },
+    {
+      "id": "ENR-305",
+      "enrollmentId": "ENR-305",
+      "studentId": "STU-105",
+      "courseId": "CRS-206",
+      "enrollmentDate": "2026-08-18",
+      "status": "Cancelled"
+    },
+    {
+      "id": "ENR-306",
+      "enrollmentId": "ENR-306",
+      "studentId": "STU-106",
+      "courseId": "CRS-205",
+      "enrollmentDate": "2026-08-20",
+      "status": "Active"
+    }
+  ]
+}
